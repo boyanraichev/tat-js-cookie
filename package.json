@@ -1,0 +1,15 @@
+{
+  "name": "tat-js-cookie",
+  "version": "1.0.0",
+  "description": "Simple JS script to display a cookie warning",
+  "browser": "src/tat-cookie.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boyanraichev/tat-js-cookie.git"
+  },
+  "author": "Boyan Raichev",
+  "license": "MIT"
+}
