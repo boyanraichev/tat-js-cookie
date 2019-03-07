@@ -2,7 +2,7 @@ var tatCookie = function() {
 
 	if (document.body.classList.contains('js-cookie')) {
 		
-	    match = document.cookie.match(new RegExp('cookielaw=([^;]+)'));
+	    let match = document.cookie.match(new RegExp('cookielaw=([^;]+)'));
 		if (!match) {
 	  		
 	  		let cookieDiv = document.createElement('div');
