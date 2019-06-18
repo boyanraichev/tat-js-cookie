@@ -27,10 +27,10 @@ var tatCookie = function() {
 		  		cookieDiv.classList.add('fade-out');
 		  		setTimeout(function(){ cookieDiv.remove(); }, 500);
 		  		
-		  		var d = new Date();
+		  		let d = new Date();
 			    d.setTime(d.getTime() + (90*24*60*60*1000));
-			    var expires = "expires="+d.toUTCString();
-			    document.cookie = 'cookielaw=Seen; ' + expires;
+			    let expires = "expires="+d.toUTCString();
+			    document.cookie = 'cookielaw=Seen; path=/; ' + expires;
 	  		});
 		    
 		}
